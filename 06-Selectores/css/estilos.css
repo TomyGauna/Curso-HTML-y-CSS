@@ -1,0 +1,17 @@
+button {
+    width: 20rem;
+    height: 5rem;
+}
+
+span::after {
+    content: 'Pasa por encima';
+}
+
+button:hover {
+    color: white;
+    background-color: green;
+}
+
+button:hover span::after {
+    content: '¡Hecho!';
+}
