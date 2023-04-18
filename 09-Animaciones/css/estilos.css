@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn-modern {
+    padding: 1rem .5rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgb(102, 102, 102);
+    color: rgb(236, 229, 212);
+    cursor: pointer;
+    border-bottom: 3px solid rgb(41, 41, 41);
+    border-right: 2px solid rgb(68, 68, 68);
+    transition: all .4s;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 6px 4px rgba(35, 35, 36, 0.479);
+
+    background-color: rgb(255, 133, 133);
+    border-bottom: 3px solid rgb(116, 61, 61);
+    border-right: 2px solid rgb(155, 78, 78);
+    color: rgb(78, 88, 80);
+}
