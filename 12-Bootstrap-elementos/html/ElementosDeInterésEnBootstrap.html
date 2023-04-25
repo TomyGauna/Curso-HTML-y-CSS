@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="jumbotron">
+        <div class="container">
+            <div class="bg-light p-5 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+                    <p class="col-md-8 fs-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius accusantium quam molestias velit
+                        rem repellat quae, tempora temporibus quis doloremque iste. Sunt quidem quam tempore odio
+                        laudantium vitae ratione ex.
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#modal-ejemplo">Example button</button>
+                    <div class="modal fade" data-bs-backdrop="static" id="modal-ejemplo">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <h4 class="modal-header">Este es el header</h4>
+                                <div class="modal-body">
+                                    <p>Este es el body</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                        Cerrar
+                                    </button>
+                                    <button class="btn btn-primary" disabled>Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="formulario">
+        <div class="container p-5">
+            <form action="">
+                <div class="mb-3">
+                    <label class="form-label" for="nombre">Introduce tu nombre</label>
+                    <input id="nombre" type="text" class="form-control" placeholder="Tu nombre..." />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="number">Introduce tu telefono</label>
+                    <input id="number" type="number" class="form-control" placeholder="Tu numero..." />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="mensaje">Dejanos un mensaje</label>
+                    <textarea class="form-control" placeholder="Contanos como fue tu experiencia..."
+                        id="floatingTextarea"></textarea>
+                </div>
+        </div>
+    </div>
+    <div id="tarjeta">
+        <div class="container p-5 py-4">
+            <div class="card mt-4">
+                <div class="card-header">
+                    <h3 class="text-center">Tomás Gauna</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title display-6 col-md-9 py-1">
+                        Estudiante de programacion
+                    </h5>
+                    <p class="card-text col-md-9 pb-2">
+                        Soy estudiante de programacion en la Universidad de San Martin. Aparte estoy haciendo el curso
+                        de html y css en OpenBootcamp.
+                    </p>
+                </div>
+                <div class="card-footer pt-3">
+                    <h5 class="text-center">Tgauna99@gmail.com</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+</html>
